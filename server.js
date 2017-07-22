@@ -5,9 +5,6 @@ var path = require("path");
 var app = express();
 var port = process.env.PORT || 3000;
 
-// app.get('/', function(req, res){
-// 	res.send('Hello World!');
-// })
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
